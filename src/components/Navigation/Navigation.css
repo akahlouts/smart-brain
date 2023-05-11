@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+  font-size: 25px;
+  color: black;
+}
+.nav span {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav span:hover {
+  opacity: 0.5;
+}
+.nav span:first-child {
+  margin-right: 30px;
+}

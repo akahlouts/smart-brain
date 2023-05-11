@@ -1,0 +1,85 @@
+article {
+  width: 100%;
+  max-width: 512px;
+  margin: 32px auto;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+main {
+  padding: 32px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.measure {
+  max-width: 30em;
+}
+fieldset {
+  margin: 0;
+  padding: 6px 0 10px;
+  border: 1px solid transparent;
+}
+legend {
+  font-size: 48px;
+  margin: 0 0 8px;
+  font-weight: 600;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+  width: 100%;
+}
+fieldset div {
+  margin-top: 16px;
+}
+fieldset div:last-child {
+  margin-bottom: 16px;
+}
+.measure label {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  display: block;
+}
+fieldset input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  appearance: none;
+}
+fieldset input:hover {
+  background-color: black;
+  color: white;
+}
+input[type="submit"] {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+  appearance: none;
+}
+input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+.switch {
+  margin-top: 16px;
+  line-height: 1.5;
+}
+.switch p {
+  font-size: 14px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.switch p:hover {
+  opacity: 0.5;
+}

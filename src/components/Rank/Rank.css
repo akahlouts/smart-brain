@@ -1,0 +1,14 @@
+.rank {
+  font-size: 24px;
+  line-height: 1.15;
+}
+.rank p {
+  padding: 5px;
+  margin: 10px auto 0;
+}
+.rank p:not(:last-child) {
+  color: white;
+}
+.rank p:nth-child(2) {
+  font-size: 48px;
+}
